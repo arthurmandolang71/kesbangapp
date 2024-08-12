@@ -94,6 +94,16 @@
                                         </option>
                                     </select>
                                 </div>
+                                <div class="mb-3">
+                                    <label for="location" class="form-label">Nama yang bisa di hubungi</label>
+                                    <input type="text" class="form-control" id="location" name="nama_kontak"
+                                        value="{{ $bentuk_kejadian->lokasi }}" disabled>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="location" class="form-label">Nomor kontak yang bisa dihubungi</label>
+                                    <input type="text" class="form-control" id="location" name="no_kontak"
+                                        value="{{ $bentuk_kejadian->lokasi }}" disabled>
+                                </div>
                                 {{-- <div class="mb-3">
                                     <label for="photo" class="form-label">Foto Pendukung</label>
                                     <input type="file" class="form-control" id="image1" name="foto"

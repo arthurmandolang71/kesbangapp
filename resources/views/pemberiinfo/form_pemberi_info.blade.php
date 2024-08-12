@@ -96,6 +96,16 @@
                                         <option value="Antisipasi">Antisipasi</option>
                                     </select>
                                 </div>
+                                <div class="mb-3">
+                                    <label for="location" class="form-label">Nama yang bisa dihubungi</label>
+                                    <input type="text" class="form-control" id="location" name="nama_kontak"
+                                        value="{{ old('lokasi') }}" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="location" class="form-label">Nomor Kontak yang bisa dihubungi</label>
+                                    <input type="text" class="form-control" id="location" name="no_kontak"
+                                        value="{{ old('lokasi') }}" required>
+                                </div>
                                 <div class="mb-3 d-none">
                                     <label for="photo" class="form-label">Foto Pendukung</label>
                                     <input type="file" class="form-control" id="image1" name="foto"

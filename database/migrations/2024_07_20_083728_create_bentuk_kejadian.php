@@ -24,6 +24,8 @@ return new class extends Migration
             $table->string('sifat')->nullable();
             $table->string('kontak_person')->nullable();
             $table->string('foto')->nullable();
+            $table->string('nama_kontak')->nullable();
+            $table->string('no_kontak')->nullable();
             $table->timestamps();
         });
     }
