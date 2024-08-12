@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('nama')->nullable();
             $table->string('singkatan')->nullable();
             $table->string('deskripsi')->nullable();
+            $table->string('kode_akses')->nullable();
             $table->timestamps();
         });
     }

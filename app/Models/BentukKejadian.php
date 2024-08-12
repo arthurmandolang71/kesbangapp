@@ -13,4 +13,14 @@ class BentukKejadian extends Model
     protected $table = 'bentuk_kejadian';
     protected $primaryKey = 'id';
     protected $guarded = ['id'];
+
+    public function pemberiinfo_ref()
+    {
+        return $this->hasOne(PemberiInfo::class, 'id', 'id_pemberi_info');
+    }
+
+    public function tindaklanjut()
+    {
+        return $this->hasMany(BentukKejadianTL::class, 'id_bentuk_kejadian', 'id');
+    }
 }

@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('bentuk_kejadian', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->foreignId('id_pemberi_info')->nullable();
+            $table->foreignUuid('id_pemberi_info')->nullable();
             $table->string('judul')->nullable();
             $table->string('oknum')->nullable();
             $table->string('bagaimana')->nullable();
@@ -22,6 +22,8 @@ return new class extends Migration
             $table->string('waktu')->nullable();
             $table->string('katagori')->nullable();
             $table->string('sifat')->nullable();
+            $table->string('kontak_person')->nullable();
+            $table->string('foto')->nullable();
             $table->timestamps();
         });
     }

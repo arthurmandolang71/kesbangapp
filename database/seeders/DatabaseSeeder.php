@@ -183,40 +183,70 @@ class DatabaseSeeder extends Seeder
             'kode_akses' =>  rand(10000, 99999),
         ]);
 
+        PemberiInfo::create([
+            'nama' => 'FKDM',
+            'singkatan' => 'Forum Kewaspadaan Dini Masyarakat',
+            'deskripsi' => '',
+            'katagori' => 'Non Pemerintah',
+            'kode_akses' =>  rand(10000, 99999),
+        ]);
+
+        PemberiInfo::create([
+            'nama' => 'BNBT',
+            'singkatan' => 'Badan Nasional Pencegah Terorisme',
+            'deskripsi' => '',
+            'katagori' => 'Non Pemerintah',
+            'kode_akses' =>  rand(10000, 99999),
+        ]);
+
+        PemberiInfo::create([
+            'nama' => 'BINDA',
+            'singkatan' => 'Badan Intelegent Daerah',
+            'deskripsi' => '',
+            'katagori' => 'Non Pemerintah',
+            'kode_akses' =>  rand(10000, 99999),
+        ]);
+
         ForKompinda::create([
             'nama' => 'Pemerintah Kota Manado',
             'singkatan' => 'Pemkot Manado',
             'deskripsi' => '',
+            'kode_akses' =>  rand(10000, 99999),
         ]);
 
         ForKompinda::create([
             'nama' => 'Polresta Manado',
             'singkatan' => 'Polresta Manado',
             'deskripsi' => '',
+            'kode_akses' =>  rand(10000, 99999),
         ]);
 
         ForKompinda::create([
             'nama' => 'Kodim Manado',
             'singkatan' => 'Kodim Manado',
             'deskripsi' => '',
+            'kode_akses' =>  rand(10000, 99999),
         ]);
 
         ForKompinda::create([
             'nama' => 'Kejaksaan Negeri Manado',
             'singkatan' => 'Kejari Manado',
             'deskripsi' => '',
+            'kode_akses' =>  rand(10000, 99999),
         ]);
 
         ForKompinda::create([
             'nama' => 'Pengadilan Negeri Manado',
             'singkatan' => 'Pengadilan Manado',
             'deskripsi' => '',
+            'kode_akses' =>  rand(10000, 99999),
         ]);
 
         ForKompinda::create([
             'nama' => 'DPRD Kota Manado',
             'singkatan' => 'DPRD Kota Manado',
             'deskripsi' => '',
+            'kode_akses' =>  rand(10000, 99999),
         ]);
     }
 }

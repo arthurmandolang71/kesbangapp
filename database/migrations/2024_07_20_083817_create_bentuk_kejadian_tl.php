@@ -13,8 +13,9 @@ return new class extends Migration
     {
         Schema::create('bentuk_kejadian_tl', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->foreignId('id_bentuk_kejadian')->nullable();
-            $table->text('deksripsi')->nullable();
+            $table->foreignUuid('id_bentuk_kejadian')->nullable();
+            $table->foreignUuid('id_forkompinda')->nullable();
+            $table->text('deskripsi')->nullable();
             $table->string('status')->nullable();
             $table->timestamps();
         });

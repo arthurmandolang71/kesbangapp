@@ -13,4 +13,14 @@ class BentukKejadianTL extends Model
     protected $table = 'bentuk_kejadian_tl';
     protected $primaryKey = 'id';
     protected $guarded = ['id'];
+
+    public function forkompinda_ref()
+    {
+        return $this->hasOne(ForKompinda::class, 'id', 'id_forkompinda');
+    }
+
+    public function bentukkejadian_ref()
+    {
+        return $this->hasOne(BentukKejadian::class, 'id', 'id_bentuk_kejadian');
+    }
 }
