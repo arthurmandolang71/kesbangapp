@@ -43,6 +43,8 @@ class BentukKejadianController extends Controller
             // 'foto' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             'katagori' => 'required|string',
             'sifat' => 'required|string',
+            'nama_kontak' => 'required|string',
+            'no_kontak' => 'required|string',
         ]);
 
         // Handle file upload
@@ -62,6 +64,8 @@ class BentukKejadianController extends Controller
             'foto' => null,
             'katagori' => $request->katagori,
             'sifat' => $request->sifat,
+            'nama_kontak' => $request->nama_kontak,
+            'no_kontak' => $request->no_kontak,
         ]);
 
         return redirect('bentukkejadiantl')->with('pesan', 'Pesan berhasil terkirim.');
