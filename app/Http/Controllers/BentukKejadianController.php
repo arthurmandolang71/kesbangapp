@@ -68,6 +68,6 @@ class BentukKejadianController extends Controller
             'no_kontak' => $request->no_kontak,
         ]);
 
-        return redirect('bentukkejadiantl')->with('pesan', 'Pesan berhasil terkirim.');
+        return redirect('bentukkejadian')->with('pesan', 'Pesan berhasil terkirim.');
     }
 }
