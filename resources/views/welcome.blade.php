@@ -30,8 +30,8 @@
                                     </svg>
                                 </span>
                                 <div>
-                                    <h3 class="text-white">P3K FORKOMPINDA” (Percepatan Pencegahan Penanganan Konflik
-                                        melalui forum koordinasi pimpinan daerah </h3>
+                                    <h3 class="text-white">P3K FORKOPIMDA” (Percepatan Pencegahan Penanganan Konflik
+                                        melalui FORum KOordinasi PIMpinan DAerah </h3>
                                     <p>Perlu adanya penangan Konflik yang terjadi di Kota Manado dan dampaknya terhadap
                                         masyarakat.</p>
                                     {{-- <a class="text-white" href="javascript:void(0);">Learn more >></a> --}}
