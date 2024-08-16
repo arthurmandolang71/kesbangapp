@@ -192,7 +192,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         PemberiInfo::create([
-            'nama' => 'BNBT',
+            'nama' => 'BNPT',
             'singkatan' => 'Badan Nasional Pencegah Terorisme',
             'deskripsi' => '',
             'katagori' => 'Non Pemerintah',

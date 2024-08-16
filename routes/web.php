@@ -26,7 +26,7 @@ use Illuminate\Queue\BeanstalkdQueue;
 //     return view('welcome');
 // });
 
-Route::redirect('/', '/login');
+Route::redirect('/', '/bentukkejadian');
 
 Route::redirect('/home', '/welcome');
 
