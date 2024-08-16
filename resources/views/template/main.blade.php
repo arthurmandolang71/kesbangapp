@@ -49,10 +49,9 @@
             <span style="--i:6">R</span>
             <span style="--i:7">K</span>
             <span style="--i:8">O</span>
-            <span style="--i:9">M</span>
             <span style="--i:10">P</span>
             <span style="--i:11">I</span>
-            <span style="--i:11">N</span>
+            <span style="--i:11">M</span>
             <span style="--i:11">D</span>
             <span style="--i:11">A</span>
         </div>

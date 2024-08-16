@@ -43,7 +43,7 @@
                                     value="{{ $bentuk_kejadian->judul }}" disabled>
                             </div>
                             <div class="mb-3">
-                                <label for="title" class="form-label">Kode Akses Forkompinda</label>
+                                <label for="title" class="form-label">Kode Akses FORKOPIMDA</label>
                                 <input type="text" class="form-control" id="title" name="kode" required>
                             </div>
 
