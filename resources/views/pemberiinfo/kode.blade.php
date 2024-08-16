@@ -10,6 +10,10 @@
 <body>
     <div class="container mt-5">
         <div class="row justify-content-center">
+            <div class="text-center mb-3">
+                <a href="index.html"><img src="{{ asset('') }}assets/images/p3klogo.png"
+                        class="img-fluid img-thumbnail" alt="" width="130"></a>
+            </div>
             <div class="col-md-8">
                 <div class="card shadow">
 
@@ -27,10 +31,7 @@
                                 </div>
                             </div>
                         @endif
-                        <div class="text-center mb-3">
-                            <a href="index.html"><img src="{{ asset('') }}assets/images/p3klogo.png"
-                                    class="img-fluid img-thumbnail" alt="" width="100"></a>
-                        </div>
+
                         <form action="/formbentukkejadian" method="GET">
                             <div class="mb-3">
                                 <label for="title" class="form-label">Kode Akses</label>

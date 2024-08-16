@@ -10,6 +10,10 @@
 <body>
     <div class="container mt-5">
         <div class="row justify-content-center">
+            <div class="text-center mb-3">
+                <a href="index.html"><img src="{{ asset('') }}assets/images/p3klogo.png"
+                        class="img-fluid img-thumbnail" alt="" width="130"></a>
+            </div>
             @if (session()->has('pesan'))
                 <div class="container text-center">
                     <div class="alert alert-success alert-dismissible" role="alert">
@@ -19,10 +23,7 @@
                 </div>
             @endif
             <div class="col-md-8">
-                <div class="text-center mb-3">
-                    <a href="index.html"><img src="{{ asset('') }}assets/images/p3klogo.png"
-                            class="img-fluid img-thumbnail" alt="" width="100"></a>
-                </div>
+
                 <div class="card shadow">
                     @if ($stakeholder)
                         <div class="card-header bg-danger text-white">
