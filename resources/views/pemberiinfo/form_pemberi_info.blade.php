@@ -120,7 +120,7 @@
                         </div>
                     @else
                         <div class="card-header bg-dafault text-black">
-                            <h4>Kode Akses tidak di temukan</h4>
+                            <h4>Kode Akses tidak ditemukan</h4>
                             <a href="/bentukkejadian"class="btn btn-danger w-100">Coba Kembali </a>
                         </div>
                     @endif
