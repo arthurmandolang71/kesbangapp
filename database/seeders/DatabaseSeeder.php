@@ -211,42 +211,42 @@ class DatabaseSeeder extends Seeder
             'nama' => 'Pemerintah Kota Manado',
             'singkatan' => 'Pemkot Manado',
             'deskripsi' => '',
-            'kode_akses' =>  rand(10000, 99999),
+            'kode_akses' =>  'mdo01',
         ]);
 
         ForKompinda::create([
             'nama' => 'Polresta Manado',
             'singkatan' => 'Polresta Manado',
             'deskripsi' => '',
-            'kode_akses' =>  rand(10000, 99999),
+            'kode_akses' =>  'mdo02',
         ]);
 
         ForKompinda::create([
             'nama' => 'Kodim Manado',
             'singkatan' => 'Kodim Manado',
             'deskripsi' => '',
-            'kode_akses' =>  rand(10000, 99999),
+            'kode_akses' =>  'mdo03',
         ]);
 
         ForKompinda::create([
             'nama' => 'Kejaksaan Negeri Manado',
             'singkatan' => 'Kejari Manado',
             'deskripsi' => '',
-            'kode_akses' =>  rand(10000, 99999),
+            'kode_akses' =>  'mdo04',
         ]);
 
         ForKompinda::create([
             'nama' => 'Pengadilan Negeri Manado',
             'singkatan' => 'Pengadilan Manado',
             'deskripsi' => '',
-            'kode_akses' =>  rand(10000, 99999),
+            'kode_akses' =>  'mdo05',
         ]);
 
         ForKompinda::create([
             'nama' => 'DPRD Kota Manado',
             'singkatan' => 'DPRD Kota Manado',
             'deskripsi' => '',
-            'kode_akses' =>  rand(10000, 99999),
+            'kode_akses' =>  'mdo06',
         ]);
     }
 }
