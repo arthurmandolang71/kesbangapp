@@ -82,7 +82,7 @@
                                     <label for="category" class="form-label">Kategori</label>
                                     <select class="form-select" id="category" name="katagori" required>
                                         <option value="">Pilih Kategori</option>
-                                        <option value="Kartimas">Kartimas </option>
+                                        <option value="Kamtibmas">Kamtibmas </option>
                                         <option value="Konflik Sosial dan Budaya<">Konflik Sosial dan Budaya</option>
                                         <option value="Politik">Politik</option>
                                         <option value="Ideologi">Ideologi</option>
